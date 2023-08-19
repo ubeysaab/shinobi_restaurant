@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styleLogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head> 
+  <body>
+    <section class="container" style="position: relative;">
+    
+      <div style="display: flex;
+      justify-content: space-between; opacity: 0.8;">
+        <a href="./index.html">  <i class="fa-solid fa-arrow-left" style="color: #f3e9fa;"></i></a>
+        <div style="text-align: center; ">
+          <a href="./register.html"><i class="fa-solid fa-right-to-bracket" style="color: #f3e9fa; "><br> <span style="font-size: 12px; text-transform: capitalize; font-family: 'Nunito',sans-serif;">register</span></i></a>
+
+        </div>
+
+      </div>
+      <div class="image" style=" position: relative; text-align: center;">
+        <p style="font-weight: 800;
+        padding: 5px; letter-spacing: 2px; font-size: 13px;"> WELCOME BACK </p>
+        <div
+          class="imagebox"
+          style="width: 70px;
+           height: 70px; 
+           position: absolute; 
+           top: 50%;
+          left: 50%;
+          margin: -20px 0 0 -35px;
+          "
+        >
+          <img
+            src="../images/ninja.png"
+            alt=""
+            width="100%"
+            height="100%"
+            style="
+              border-radius: 50%;
+              object-fit: cover;
+              
+          
+              
+            "
+          />
+        </div>
+      </div>
+      <p style="text-wrap: balance; margin-bottom: 20px; text-align: center;">Please log in to benefit from our reservation and other campaigns.</p>
+
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" class="input-text" />
+        <label for="password"> password</label>
+        <input type="password" class="input-text" />
+       <div style="display: flex; justify-content: space-between;">
+        <div style="display: flex; text-indent: 5px">
+          <input type="checkbox" class="input-checkbox" id="check" />
+          <label for="check">Remember me</label>
+        </div>
+        <a href="" style="color: #feaf39; text-decoration: none; ">forget password </a>
+       </div>
+       <button class="btn">
+        Login
+       </button>
+      </form>
+    </section>
+  </body>
+</html>

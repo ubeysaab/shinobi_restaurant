@@ -1,0 +1,30 @@
+   /*  ilk gorunus */
+   * {
+    box-sizing: border-box;
+  }
+  body {
+    width: 100dvw;
+    
+
+  }
+
+
+  :root {
+    --orange: #feaf39;
+    --lacivert: #353b4b;
+  }
+  div.datetime-container button.date,
+  div.datetime-container button.time {
+    background-color: var(--lacivert);
+    color: var(--orange);
+  }
+
+  div.datetime-container button.active {
+    background-color: orange;
+    color: var(--lacivert);
+  }
+  div.picker table td.active,
+  div.picker table td.time-selected {
+    background-color: var(--orange);
+    color: #000;
+  }

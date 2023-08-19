@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./dish.png" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="landing-page">
+      <!-- header start -->
+      <header class="header">
+        <div class="header-flex-between">
+          <div class="logos">
+            <div class="logo">
+              <img src="../images/sushi.png" alt="" class="img-logo" />
+              <img
+                src="../images/Shinobi Japanese Restaurant.png"
+                alt=""
+                class="img-logo"
+              />
+            </div>
+
+            <div class="burger-menu">
+              <img
+                src="../images/burger-menu.png"
+                alt=""
+                class="img-logo"
+                id="bur-menu"
+              />
+            </div>
+          </div>
+
+          <div class="navbar">
+            <ul class="list">
+              <li class="list-item"><a href="./index.html">Home</a></li>
+
+              <li class="list-item"><a href="#about">about</a></li>
+
+              <li class="list-item"><a href="#branches">branches</a></li>
+
+              <li class="list-item"><a href="#menu">menu</a></li>
+
+              <li class="list-item"><a href="#footer">Contact</a></li>
+              <li class="list-item"><a href="./register.html">register</a></li>
+              <li class="list-item"><a href="./login.html">login</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- body of the first page -->
+
+      <div class="body-of-landingPage-flex">
+        <div class="txt-body">
+          <h1>Enjoy Our Delicious Meals</h1>
+          <p>
+            our meals are among the most deliciosu dishes prepared with care and
+            expert hands
+          </p>
+        </div>
+        <div class="img-body">
+          <img
+            src="../images/plate1.jpg"
+            alt=""
+            class="circle-image rotate linear infinite"
+          />
+        </div>
+      </div>
+      <!-- body of first page finished  -->
+    </section>
+    <!-- first page burada bitiyor  -->
+
+    <section class="second-about-page hidden">
+      <div class="images-container">
+        <div class="images-card">
+          <img
+            src="../images/abot.jpg"
+            
+            alt="image of restaurant"
+            class="grid-image first"
+          />
+          <img src="../images/fingerprint.jpg" alt="" id="hover-img" />
+        </div>
+      </div>
+      <div class="txt">
+        <h3 class="title   scrollspy" id="about">about us</h3>
+        <h2>Welcome to shinobi</h2>
+        <p>
+          the best japanese restaurant you 'll ever go to , Meet the flavors
+          that will leave a mark on your taste buds
+        </p>
+      </div>
+    </section>
+
+    <!-- start subeler -->
+    <section class="branches   scrollspy" id="branches">
+      <h3 class="title">our branches</h3>
+      <div class="carousel">
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="img-area">
+              <img
+                src="../images/branches/parastoo-jk-0F5qFBmCV44-unsplash.jpg"
+                alt=""
+              />
+            </div>
+
+            <a href="./resrvasyon.html"  class="branch-link"><h4 class="branch-name">Istanbul</h4></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus dolorem quia qui nesciunt. Sunt vitae ab, quae
+              adipisci ex magni possimus soluta, aperiam doloribus debitis velit
+              eligendi in maiores error.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="img-area">
+              <img
+                src="../images/branches/screen-shot-2019-05-27-at-12.53.03-pm-816x546.jpg"
+                alt=""
+              />
+            </div>
+
+         <a href="resrvasyon.html" class="branch-link">   <h4 class="branch-name">Paris</h4></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus dolorem quia qui nesciunt. Sunt vitae ab, quae
+              adipisci ex magni possimus soluta, aperiam doloribus debitis velit
+              eligendi in maiores error.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="img-area">
+              <img
+                src="../images/branches/micah-camper-rWQZPEGc06k-unsplash.jpg"
+                alt=""
+              />
+            </div>
+
+         <a href="./resrvasyon.html" class="branch-link">   <h4 class="branch-name">Tokyo</h4></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus dolorem quia qui nesciunt. Sunt vitae ab, quae
+              adipisci ex magni possimus soluta, aperiam doloribus debitis velit
+              eligendi in maiores error.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--subeler finished   -->
+
+    <!-- start yemek menu -->
+    <section class="yemek-menu    scrollspy" id="menu">
+      <h3 class="title">Menu</h3>
+
+      <div class="yemek-categori">
+        <h4 id="sushi" class="menu-tab">
+          Sushi <br />
+          <sub class="menu-tab">(par pair)</sub>
+        </h4>
+        <!-- ? burada silmek istedigin seyler omer -->
+        <h4 id="sashimi" class="menu-tab">
+          Sashimi <br /><sub class="menu-tab">(Raw)</sub>
+        </h4>
+        <h4 id="maki" class="menu-tab">
+          maki <br />
+          <sub class="menu-tab">(1 roll cut in 5 pieces )</sub>
+        </h4>
+        <!--? omer java script ile yaptigim seyler burada dir sushi kategori olarak yapacaksin doner falan icerde durum menu  -->
+      </div>
+      <!-- img cards img ad +price  9 is good number  -->
+      <div class="yemek-menu-container"></div>
+    </section>
+    <!-- yemek menusu finished -->
+
+    <!-- start reviews from customers -->
+
+    <section class="review" style="margin-top:100px ;">
+      <h3 class="title">
+        Testimonial</h3>
+        <div class="carousel" style=" padding: 50px">
+      <div
+      class="review-card carousel-item"
+        style="
+          text-align: center;
+          border: 2px solid #f3e9fa;
+          border-radius: 15px;
+          height: auto;
+        "
+      >
+        <div
+          class="review-image"
+          style="width: 100px; height: 100px; margin: 15px auto"
+        >
+          <img
+            src="../images/delete.png"
+            alt=""
+            width="100%"
+            height="100%"
+            style="object-fit: cover"
+          />
+        </div>
+        <p>the best restaurant i 've ever go to is special</p>
+        <span> ubey saab </span>
+      </div>
+      <div
+        class="review-card carousel-item"
+        style="
+          text-align: center;
+          border: 2px solid #cdc1d6;
+          border-radius: 15px;
+          height: auto;
+        "
+      >
+      <div
+      class="review-image"
+      style="width: 100px; height: 100px; margin: 15px auto"
+      >
+          <img
+          src="./delete.png"
+            alt=""
+            width="100%"
+            height="100%"
+            style="object-fit: cover"
+          />
+        </div>
+        <p>the best restaurant i 've ever go to is special</p>
+        <span> ubey saab </span>
+      </div>
+      <div
+        class="review-card carousel-item"
+        style="
+          text-align: center;
+          text-wrap:balance;
+          border: 2px solid #a4a2a5;
+          border-radius: 15px;
+          height: auto;
+          padding: 10px;
+
+        "
+      >
+        <div
+        class="review-image"
+        style="width: 100px; height: 100px; margin: 15px auto"
+        >
+        <img
+            src="../images/delete.png"
+            alt=""
+            width="100%"
+            height="100%"
+            style="object-fit: cover"
+            />
+        </div>
+        <p>xostur</p>
+        <span> ciwan hammud </span>
+      </div>
+    </div>
+
+  </section>
+    <!-- finish review from customer -->
+<!-- 
+
+
+
+
+
+
+
+
+
+
+  burada reservasion yeri sadece kaydi varsa eklenir bunu js ile dene 
+
+
+
+ -->
+
+<!-- footer  -->
+<footer class="footer scrollspy" id="footer">
+       
+
+  <!-- footer  -->
+         
+          
+            <div class="up">
+              <h3 class="title">
+                NEWSLETTER 
+              </h3>
+              <p>
+                Receive exclusive offers and discounts in your mailbox
+              </p>
+              <div class="email-input">
+                <input type="email" name="email" id="input">
+                <button class="body-button footer-btn">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+  
+  
+            <div class="down">
+              <div class="huddle huddle1">
+                <img src="../images/icon-messages.svg" alt="">
+                <h3 class="title">Shinibo hot line </h3>
+              </div>
+              <p>The "hot line" is where the food is cooked, the cookers,</p>
+              <div class="huddle">
+                <img src="../images/icon-phone.svg" alt="">
+                <p>Phone</p>
+              </div>
+              <div class="huddle">
+                <img src="../images/icon-email.svg" alt="">
+                <p>
+                  aboosh.sa262000@gmail.com
+                </p>
+             
+              </div>
+           
+              <div class="icons">
+                <a href="https://github.com/ubeysaab" target="_blank">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ubeysaab/"  target="_blank">
+                  <i class="fa-brands fa-linkedin">    </i>
+                </a>
+               
+              </div>
+       
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- defer attribute to make sure that  js will run after html body  -->
+    <script defer src="./index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel({
+          padding: 100,
+        });
+        autoplay();
+        function autoplay() {
+          $(".carousel").carousel("next");
+          setTimeout(autoplay, 4500);
+        }
+      });
+
+      // $('.carousel.carousel-slider').carousel({
+      //   fullWidth: true,
+      //   indicators: true
+
+      // });
+      $('.scrollspy').scrollSpy();
+    </script>
+  </body>
+</html>
+
+<!-- <section class="subelerimiz">
+
+  <h2>
+    subelerimiz
+  </h2>
+
+
+
+</section>
+   -->
