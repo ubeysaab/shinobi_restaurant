@@ -18,43 +18,63 @@
     />
     <link rel="stylesheet" href="resrvasyon.css">
 
-    <style>
-   
-    </style>
   </head>
   <body>
     
     <section 
      class="first-page">
-      <header>
-        <a href="./index.html#branches">
-          <i class="fa-solid fa-arrow-left" style="color: #f3e9fa"></i
-        ></a>
-        <h1>
-          branch name / Menu
-        </h1>
-      </header>
+      <div class="up">
+        <a href="./index.html" >  <i class="fa-solid fa-arrow-left" style="color: #353B4B;"></i></a>
+
+        <img src="https://via.placeholder.com/350x150 color
+      " alt=" background-image">
+        <header>
+        
+
+      
+          <h1>
+             Rerservation page 
+          </h1>
+        </header>
+      </div>
 
     </section>
 
+   <div id="select_date" class="datetime-container"></div>
+   <div class="reservation-infomations">
+    <form action="">
+      <input type="text" name="" id="name" class="inp" placeholder="name"></input>
+      <input type="text" name="" id="lastName" class="inp" placeholder="lastName"></input>
+      <input type="email" name="" id="email" class="inp" placeholder="email"></input>
+      <input type="number" name="" id="email" class="inp" placeholder="number of Guests"></input>
+      <!-- sube secme burada  -->
+      <input list="branches" name="branch" placeholder="select branch" class="inp">
+      <datalist  id="branches" >
+        <option value="istanbul">  
+        <option value="tokyo">  
+        <option value="paris">  
 
 
 
+   
+      </datalist>
 
 
+      <div class="tables">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
+        <input type="radio" name="table" id="" class="table">
 
+      </div>
+      <button class="btn"> submit</button>
+<!-- sube secme bitti -->
+    </form>
 
-
-
-
-
-
-
-
-
-
-
-    <div id="select_date" class="datetime-container"></div>
+   </div>
 
     <script>
       new DateTimePickerComponent.DateTimePicker("select_date");
